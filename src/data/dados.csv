@@ -1,0 +1,60 @@
+tipo,campo,valor
+modulo,suporte_vida,1
+modulo,energia,1
+modulo,comunicacao,0
+modulo,habitat,1
+modulo,laboratorio,1
+modulo,armazenamento,1
+energia,horario,00:00
+energia,geracao_kWh,30.5
+energia,consumo_kWh,45.2
+energia,reserva_pct,78
+energia,horario,04:00
+energia,geracao_kWh,0.0
+energia,consumo_kWh,48.1
+energia,reserva_pct,62
+energia,horario,08:00
+energia,geracao_kWh,55.3
+energia,consumo_kWh,50.0
+energia,reserva_pct,67
+energia,horario,12:00
+energia,geracao_kWh,72.1
+energia,consumo_kWh,52.3
+energia,reserva_pct,75
+energia,horario,16:00
+energia,geracao_kWh,45.8
+energia,consumo_kWh,78.0
+energia,reserva_pct,48
+energia,horario,20:00
+energia,geracao_kWh,12.2
+energia,consumo_kWh,80.5
+energia,reserva_pct,32
+ambiente,temperatura_interna_C,21.5
+ambiente,temperatura_externa_C,-63.0
+ambiente,radiacao_Sv,0.85
+ambiente,qualidade_comunicacao_pct,35
+ambiente,pressao_interna_atm,1.01
+log,timestamp,2026-06-01 00:15
+log,evento,Sistema inicializado em modo nominal
+log,severidade,NORMAL
+log,timestamp,2026-06-01 04:30
+log,evento,Falha no modulo de comunicacao primaria detectada
+log,severidade,CRITICO
+log,timestamp,2026-06-01 06:00
+log,evento,Reinicializacao do sistema de comunicacao tentada sem sucesso
+log,severidade,CRITICO
+log,timestamp,2026-06-01 08:45
+log,evento,Geracao solar retomada apos periodo noturno
+log,severidade,NORMAL
+log,timestamp,2026-06-01 12:00
+log,evento,Sensor de temperatura externa com leitura inconsistente (-120C)
+log,severidade,ALERTA
+log,timestamp,2026-06-01 15:30
+log,evento,Modo de economia de energia ativado no laboratorio
+log,severidade,ALERTA
+log,timestamp,2026-06-01 16:00
+log,evento,Consumo de energia acima do limiar critico (78 kWh)
+log,severidade,CRITICO
+log,timestamp,2026-06-01 20:00
+log,evento,Reserva energetica em nivel critico - 32pct
+log,severidade,CRITICO
